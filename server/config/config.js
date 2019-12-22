@@ -23,5 +23,10 @@ if (process.env.NODE_ENV === 'dev'){
     urlDB = process.env.MONGO_URI
     //mongodb+srv://kayak:kNeEjJWXHU4H4uYD@cluster0-4hz29.mongodb.net/cafe
 }
-
 process.env.URLDB = urlDB;
+
+//GOOLE CLIENT_ID ---------------------------
+process.env.CLIENT_ID = process.env.CLIENT_ID || '126837134573-n9qjagpdfbp4l7lgc42hcg6cqk78katc.apps.googleusercontent.com';
+
+
+
